@@ -1,0 +1,273 @@
+name: BonusXP
+version: 0.0.1
+main: com.massivecraft.bonusxp.BonusXP
+authors: [yendor46]
+description: BonusXP provides mcMMO XP bonuses of 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40% or 45% based on the highest permission enabled. This supplements the mcMMO permissions that begin at 50%.  
+depend: [mcMMO, mcore]
+# -------------------------------------------- #
+# THE REAL NODES
+# -------------------------------------------- #
+permissions:
+  bonusxp.percent5.acrobatics: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.archery: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.axes: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.excavation: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.fishing: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.herbalism: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.mining: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.repair: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.smelting: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.swords: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.taming: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.unarmed: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent5.woodcutting: {description: 5% mcMMO XP bonus, default: false}
+  bonusxp.percent10.acrobatics: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.archery: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.axes: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.excavation: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.fishing: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.herbalism: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.mining: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.repair: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.smelting: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.swords: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.taming: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.unarmed: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent10.woodcutting: {description: 10% mcMMO XP bonus, default: false}
+  bonusxp.percent15.acrobatics: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.archery: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.axes: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.excavation: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.fishing: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.herbalism: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.mining: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.repair: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.smelting: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.swords: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.taming: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.unarmed: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent15.woodcutting: {description: 15% mcMMO XP bonus, default: false}
+  bonusxp.percent20.acrobatics: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.archery: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.axes: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.excavation: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.fishing: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.herbalism: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.mining: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.repair: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.smelting: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.swords: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.taming: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.unarmed: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent20.woodcutting: {description: 20% mcMMO XP bonus, default: false}
+  bonusxp.percent25.acrobatics: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.archery: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.axes: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.excavation: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.fishing: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.herbalism: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.mining: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.repair: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.smelting: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.swords: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.taming: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.unarmed: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent25.woodcutting: {description: 25% mcMMO XP bonus, default: false}
+  bonusxp.percent30.acrobatics: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.archery: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.axes: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.excavation: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.fishing: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.herbalism: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.mining: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.repair: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.smelting: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.swords: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.taming: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.unarmed: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent30.woodcutting: {description: 30% mcMMO XP bonus, default: false}
+  bonusxp.percent35.acrobatics: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.archery: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.axes: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.excavation: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.fishing: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.herbalism: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.mining: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.repair: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.smelting: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.swords: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.taming: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.unarmed: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent35.woodcutting: {description: 35% mcMMO XP bonus, default: false}
+  bonusxp.percent40.acrobatics: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.archery: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.axes: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.excavation: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.fishing: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.herbalism: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.mining: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.repair: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.smelting: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.swords: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.taming: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.unarmed: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent40.woodcutting: {description: 40% mcMMO XP bonus, default: false}
+  bonusxp.percent45.acrobatics: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.archery: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.axes: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.excavation: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.fishing: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.herbalism: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.mining: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.repair: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.smelting: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.swords: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.taming: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.unarmed: {description: 45% mcMMO XP bonus, default: false}
+  bonusxp.percent45.woodcutting: {description: 45% mcMMO XP bonus, default: false}
+# -------------------------------------------- #
+# STAR NOTATION
+# -------------------------------------------- #
+  bonusxp.percent5.*: 
+    children:
+      bonusxp.percent5.acrobatics: false
+      bonusxp.percent5.archery: false
+      bonusxp.percent5.axes: false
+      bonusxp.percent5.excavation: false
+      bonusxp.percent5.fishing: false
+      bonusxp.percent5.herbalism: false
+      bonusxp.percent5.mining: false
+      bonusxp.percent5.repair: false
+      bonusxp.percent5.smelting: false
+      bonusxp.percent5.swords: false
+      bonusxp.percent5.taming: false
+      bonusxp.percent5.unarmed: false
+      bonusxp.percent5.woodcutting: false
+
+  bonusxp.percent10.*: 
+    children:
+      bonusxp.percent10.acrobatics: false
+      bonusxp.percent10.archery: false
+      bonusxp.percent10.axes: false
+      bonusxp.percent10.excavation: false
+      bonusxp.percent10.fishing: false
+      bonusxp.percent10.herbalism: false
+      bonusxp.percent10.mining: false
+      bonusxp.percent10.repair: false
+      bonusxp.percent10.smelting: false
+      bonusxp.percent10.swords: false
+      bonusxp.percent10.taming: false
+      bonusxp.percent10.unarmed: false
+      bonusxp.percent10.woodcutting: false
+
+  bonusxp.percent15.*: 
+    children:
+      bonusxp.percent15.acrobatics: false
+      bonusxp.percent15.archery: false
+      bonusxp.percent15.axes: false
+      bonusxp.percent15.excavation: false
+      bonusxp.percent15.fishing: false
+      bonusxp.percent15.herbalism: false
+      bonusxp.percent15.mining: false
+      bonusxp.percent15.repair: false
+      bonusxp.percent15.smelting: false
+      bonusxp.percent15.swords: false
+      bonusxp.percent15.taming: false
+      bonusxp.percent15.unarmed: false
+      bonusxp.percent15.woodcutting: false
+
+  bonusxp.percent20.*: 
+    children:
+      bonusxp.percent20.acrobatics: false
+      bonusxp.percent20.archery: false
+      bonusxp.percent20.axes: false
+      bonusxp.percent20.excavation: false
+      bonusxp.percent20.fishing: false
+      bonusxp.percent20.herbalism: false
+      bonusxp.percent20.mining: false
+      bonusxp.percent20.repair: false
+      bonusxp.percent20.smelting: false
+      bonusxp.percent20.swords: false
+      bonusxp.percent20.taming: false
+      bonusxp.percent20.unarmed: false
+      bonusxp.percent20.woodcutting: false
+
+  bonusxp.percent25.*: 
+    children:
+      bonusxp.percent25.acrobatics: false
+      bonusxp.percent25.archery: false
+      bonusxp.percent25.axes: false
+      bonusxp.percent25.excavation: false
+      bonusxp.percent25.fishing: false
+      bonusxp.percent25.herbalism: false
+      bonusxp.percent25.mining: false
+      bonusxp.percent25.repair: false
+      bonusxp.percent25.smelting: false
+      bonusxp.percent25.swords: false
+      bonusxp.percent25.taming: false
+      bonusxp.percent25.unarmed: false
+      bonusxp.percent25.woodcutting: false
+
+  bonusxp.percent30.*: 
+    children:
+      bonusxp.percent30.acrobatics: false
+      bonusxp.percent30.archery: false
+      bonusxp.percent30.axes: false
+      bonusxp.percent30.excavation: false
+      bonusxp.percent30.fishing: false
+      bonusxp.percent30.herbalism: false
+      bonusxp.percent30.mining: false
+      bonusxp.percent30.repair: false
+      bonusxp.percent30.smelting: false
+      bonusxp.percent30.swords: false
+      bonusxp.percent30.taming: false
+      bonusxp.percent30.unarmed: false
+      bonusxp.percent30.woodcutting: false
+
+  bonusxp.percent35.*: 
+    children:
+      bonusxp.percent35.acrobatics: false
+      bonusxp.percent35.archery: false
+      bonusxp.percent35.axes: false
+      bonusxp.percent35.excavation: false
+      bonusxp.percent35.fishing: false
+      bonusxp.percent35.herbalism: false
+      bonusxp.percent35.mining: false
+      bonusxp.percent35.repair: false
+      bonusxp.percent35.smelting: false
+      bonusxp.percent35.swords: false
+      bonusxp.percent35.taming: false
+      bonusxp.percent35.unarmed: false
+      bonusxp.percent35.woodcutting: false
+
+  bonusxp.percent40.*: 
+    children:
+      bonusxp.percent40.acrobatics: false
+      bonusxp.percent40.archery: false
+      bonusxp.percent40.axes: false
+      bonusxp.percent40.excavation: false
+      bonusxp.percent40.fishing: false
+      bonusxp.percent40.herbalism: false
+      bonusxp.percent40.mining: false
+      bonusxp.percent40.repair: false
+      bonusxp.percent40.smelting: false
+      bonusxp.percent40.swords: false
+      bonusxp.percent40.taming: false
+      bonusxp.percent40.unarmed: false
+      bonusxp.percent40.woodcutting: false
+
+  bonusxp.percent45.*: 
+    children:
+      bonusxp.percent45.acrobatics: false
+      bonusxp.percent45.archery: false
+      bonusxp.percent45.axes: false
+      bonusxp.percent45.excavation: false
+      bonusxp.percent45.fishing: false
+      bonusxp.percent45.herbalism: false
+      bonusxp.percent45.mining: false
+      bonusxp.percent45.repair: false
+      bonusxp.percent45.smelting: false
+      bonusxp.percent45.swords: false
+      bonusxp.percent45.taming: false
+      bonusxp.percent45.unarmed: false
+      bonusxp.percent45.woodcutting: false
