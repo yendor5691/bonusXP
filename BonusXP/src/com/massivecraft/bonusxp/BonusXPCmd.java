@@ -38,7 +38,8 @@ public class BonusXPCmd extends MCommand
 			Double bonusxp = 100.0 * BonusXP.BonusXPCalc(me, skill);
 			String bc = Txt.parse(
 					"<i>You earn mcMMO XP at a rate of <h>%.0f%%<i> for <h>",
-					bonusxp) + skill.getName();
+					bonusxp)
+					+ skill.getName();
 			sender.sendMessage(bc);
 		}
 	}

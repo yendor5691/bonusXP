@@ -70,24 +70,25 @@ public class BonusXP extends MPlugin
 	{
 		Player player = event.getPlayer();
 		SkillType skill = event.getSkill();
-player.sendMessage("Enter Listener");
+
 		// Must be a player with the corresponding mcMMO Skill enabled
 		if (Misc.isNPCEntity(player)
 				|| !Permissions.skillEnabled(player, skill)) return;
-		String bc = Txt.parse("<i>Raw XP: <h>%.0f%%", event.getRawXpGained());
-		player.sendMessage(bc);
+
 		float bonusMult;
 		if ((bonusMult = BonusXPCalc(player, skill)) > 1.46) return;
 		event.setRawXpGained(event.getRawXpGained() * bonusMult);
-		String bc2 = Txt.parse("<i>Corrected XP: <h>%.0f%%", event.getRawXpGained());
-		player.sendMessage(bc2);
+
 		return;
 
 	}
 
 	public static float BonusXPCalc(Player player, SkillType skill)
 	{
-		if (skill == null) {return (float) 1.0;}
+		if (skill == null)
+		{
+			return (float) 1.0;
+		}
 		if (Permissions.quadrupleXp(player, skill))
 		{
 			return (float) 4.0;

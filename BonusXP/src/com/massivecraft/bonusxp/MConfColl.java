@@ -20,7 +20,8 @@ public class MConfColl extends Coll<MConf>
 
 	private MConfColl()
 	{
-		super(Const.COLLECTION_MCONF, MConf.class, MStore.getDb(ConfServer.dburi), BonusXP.get());
+		super(Const.COLLECTION_MCONF, MConf.class, MStore
+				.getDb(ConfServer.dburi), BonusXP.get());
 	}
 
 	// -------------------------------------------- //
