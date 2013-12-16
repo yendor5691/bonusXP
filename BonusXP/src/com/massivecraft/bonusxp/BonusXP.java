@@ -9,7 +9,6 @@ import com.gmail.nossr50.events.experience.McMMOPlayerXpGainEvent;
 import com.gmail.nossr50.util.Misc;
 import com.gmail.nossr50.util.Permissions;
 import com.massivecraft.mcore.MPlugin;
-import com.massivecraft.mcore.util.Txt;
 
 public class BonusXP extends MPlugin
 {
