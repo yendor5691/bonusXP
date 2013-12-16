@@ -1,5 +1,5 @@
 name: BonusXP
-version: 0.0.1
+version: 0.0.2
 main: com.massivecraft.bonusxp.BonusXP
 authors: [yendor46]
 description: BonusXP provides mcMMO XP bonuses of 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40% or 45% based on the highest permission enabled. This supplements the mcMMO permissions that begin at 50%.  
